@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open English</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #F4F4F4;
+            color: #333333;
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-family: 'Lora', serif;
+            color: #1A73E8;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+        .card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .button {
+            background-color: #1A73E8;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #F9A826;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a Open English</h1>
+    <p>Aprende inglés con los mejores cursos online.</p>
+    <div class="container">
+        <div class="card">
+            <h2>Curso Básico</h2>
+            <p>Ideal para principiantes que quieren empezar a aprender inglés.</p>
+            <button class="button">Inscribirse</button>
+        </div>
+        <div class="card">
+            <h2>Curso Intermedio</h2>
+            <p>Perfecto para quienes desean mejorar su gramática y vocabulario.</p>
+            <button class="button">Inscribirse</button>
+        </div>
+        <div class="card">
+            <h2>Curso Avanzado</h2>
+            <p>Para aquellos que quieren perfeccionar su inglés a nivel profesional.</p>
+            <button class="button">Inscribirse</button>
+        </div>
+    </div>
+</body>
+</html>
